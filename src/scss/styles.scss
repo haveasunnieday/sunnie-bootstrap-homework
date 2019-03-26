@@ -9,5 +9,13 @@
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// Import partials here
+.nav {
+  nav-link:hover {
+    color: red;
+    text-decoration: underline;
+  }
+}
 
+// Import partials here
+// @import 'nav';
+// @import 'jumbotron';
