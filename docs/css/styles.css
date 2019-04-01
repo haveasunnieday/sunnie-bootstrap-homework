@@ -6,7 +6,7 @@
   text-decoration: underline; }
 
 .jumbotron {
-  background-image: url("/media/pirate-ship.jpg");
+  background-image: url("../media/pirate-ship.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
