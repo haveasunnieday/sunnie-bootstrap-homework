@@ -1,0 +1,43 @@
+section {
+  margin: 25px 75px 10px;
+}
+
+.carousel-slide {
+  margin-bottom: 20px;
+}
+
+.col-sm-4 {
+  border-right: 1px solid #d3d3d3;
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+}
+
+.col-sm-8 {
+  h1 {
+    font-family: 'Bungee', cursive;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: #A9A9A9
+}
+
+footer p {
+  font: 1rem Arial;
+}

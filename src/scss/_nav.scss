@@ -1,5 +1,27 @@
-.nav-link {
-    a:hover {
-      text-decoration: underline;
-    }
+// .nav-link {
+  // a:hover {
+  //   text-decoration: underline;
+  // }
+// }
+
+// .nav {
+//   nav-link:hover {
+//     color: red;
+//     text-decoration: underline;
+//   }
+// }
+
+// .a {
+//   a:hover {
+//     text-decoration: underline;
+//   }
+// }
+
+.nav-link.active,
+.nav-item.show .nav-link {
+  font-weight: bold;
+}
+
+.navbar-nav a.nav-link:hover{
+  text-decoration: underline;
 }

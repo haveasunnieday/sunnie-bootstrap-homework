@@ -6,16 +6,11 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+//Import partials here
+@import 'nav';
+@import 'jumbotron';
+@import 'body';
+
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
-.nav {
-  nav-link:hover {
-    color: red;
-    text-decoration: underline;
-  }
-}
-
-// Import partials here
-// @import 'nav';
-// @import 'jumbotron';
